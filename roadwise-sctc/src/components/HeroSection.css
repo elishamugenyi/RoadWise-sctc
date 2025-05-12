@@ -1,0 +1,57 @@
+.hero-section {
+  padding: 48px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+
+.hero-image-container {
+  position: relative;
+  width: 700px;
+  height: 380px;
+  margin-bottom: 32px;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 4px 32px rgba(60, 80, 20, 0.10);
+  background: #f7fbe9;
+}
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 28px;
+}
+.hero-badge {
+  position: absolute;
+  background: #caff8a;
+  color: #2d3a00;
+  border-radius: 24px;
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 0 2px 12px rgba(60, 80, 20, 0.10);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.badge-interest {
+  top: 32px;
+  left: 32px;
+}
+.badge-money {
+  top: 32px;
+  right: 32px;
+}
+.badge-payment {
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero-tagline {
+  font-size: 1.6rem;
+  color: #2d3a00;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 16px;
+} 
