@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './CreateAccount.css';
+import './createAccount.css';
 
 const CreateAccountPage = () => {
   const [showPassword, setShowPassword] = useState(false);
