@@ -17,8 +17,9 @@
   min-width: 0;
 }
 
-.rw-logo {
+.rw-logo img {
   font-size: 2rem;
+  width: 100px;
   font-weight: bold;
   margin-bottom: 32px;
   letter-spacing: 2px;

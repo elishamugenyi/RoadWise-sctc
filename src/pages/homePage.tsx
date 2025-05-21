@@ -6,7 +6,10 @@ const HomePage = () => {
   return (
     <div className="rw-home-root">
       <div className="rw-home-left">
-        <div className="rw-logo">Roadwise</div>
+        <div className="rw-logo">
+          <img src="/roadwise-2.png" alt="roadwise logo"
+          />
+        </div>
         <div className="rw-tagline">Smart Traffic, Safer Roads</div>
         <div className="rw-desc">Real-time traffic, alerts, and reporting for your city. Stay ahead, stay safe.</div>
         <button className="rw-login-btn" onClick={() => navigate('/loginPage')}>Login</button>
